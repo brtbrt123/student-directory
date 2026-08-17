@@ -1,0 +1,45 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.probation {
+  border-color: #fc8181;
+  background: #fff5f5;
+}
+
+.badge {
+  display: inline-block;
+  background: #48bb78;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 1.125rem;
+  color: #1a202c;
+  margin: 0 0 12px;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 4px 0;
+}
+
+.statusProbationText {
+  color: #e53e3e;
+  font-weight: 600;
+}
